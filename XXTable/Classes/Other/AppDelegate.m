@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XXNavViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    XXNavViewController *nav=[XXNavViewController new];
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.rootViewController=nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

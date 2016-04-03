@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73CBE9AB32CB0E4E473D1290 /* Pods_XXTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA6884A222590C6545FA09B /* Pods_XXTable.framework */; };
 		B5014EBC1C8D2C7E00887024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EBB1C8D2C7E00887024 /* main.m */; };
-		B5014EBF1C8D2C7E00887024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EBE1C8D2C7E00887024 /* AppDelegate.m */; };
-		B5014EC21C8D2C7E00887024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EC11C8D2C7E00887024 /* ViewController.m */; };
-		B5014EC51C8D2C7E00887024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5014EC31C8D2C7E00887024 /* Main.storyboard */; };
 		B5014EC71C8D2C7E00887024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5014EC61C8D2C7E00887024 /* Assets.xcassets */; };
-		B5014ECA1C8D2C7E00887024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5014EC81C8D2C7E00887024 /* LaunchScreen.storyboard */; };
 		B5014ED51C8D2C7E00887024 /* XXTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014ED41C8D2C7E00887024 /* XXTableTests.m */; };
 		B5014EE01C8D2C7E00887024 /* XXTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EDF1C8D2C7E00887024 /* XXTableUITests.m */; };
+		B5014EF41C8D2E5D00887024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EF11C8D2E5D00887024 /* AppDelegate.m */; };
+		B5014EF51C8D2E5D00887024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EF31C8D2E5D00887024 /* ViewController.m */; };
+		B5014EF81C8D2ECA00887024 /* XXNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EF71C8D2ECA00887024 /* XXNavViewController.m */; };
+		B5014EFA1C8D3B1500887024 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5014EF91C8D3B1500887024 /* Default-568h@2x.png */; };
+		B5014EFF1C8D437B00887024 /* XXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014EFE1C8D437B00887024 /* XXTableViewController.m */; };
+		B5014F021C8D442200887024 /* XXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014F011C8D442200887024 /* XXTableViewCell.m */; };
+		B5014F051C8D471900887024 /* ButtonNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = B5014F041C8D471900887024 /* ButtonNormal.m */; };
+		B5014F071C8D4B8300887024 /* tmall_icon_cat_outing_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5014F061C8D4B8300887024 /* tmall_icon_cat_outing_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CA6884A222590C6545FA09B /* Pods_XXTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A15F0F03F6E861766B5752C /* Pods-XXTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXTable/Pods-XXTable.release.xcconfig"; sourceTree = "<group>"; };
+		AACD19BBB5498DF60C24E61E /* Pods-XXTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXTable/Pods-XXTable.debug.xcconfig"; sourceTree = "<group>"; };
 		B5014EB71C8D2C7E00887024 /* XXTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5014EBB1C8D2C7E00887024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5014EBD1C8D2C7E00887024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B5014EBE1C8D2C7E00887024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5014EC01C8D2C7E00887024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5014EC11C8D2C7E00887024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B5014EC41C8D2C7E00887024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5014EC61C8D2C7E00887024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5014EC91C8D2C7E00887024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5014ECB1C8D2C7E00887024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5014ED01C8D2C7E00887024 /* XXTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5014ED41C8D2C7E00887024 /* XXTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTableTests.m; sourceTree = "<group>"; };
@@ -51,6 +53,21 @@
 		B5014EDB1C8D2C7E00887024 /* XXTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5014EDF1C8D2C7E00887024 /* XXTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTableUITests.m; sourceTree = "<group>"; };
 		B5014EE11C8D2C7E00887024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5014EF01C8D2E5D00887024 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5014EF11C8D2E5D00887024 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5014EF21C8D2E5D00887024 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5014EF31C8D2E5D00887024 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5014EF61C8D2ECA00887024 /* XXNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXNavViewController.h; sourceTree = "<group>"; };
+		B5014EF71C8D2ECA00887024 /* XXNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXNavViewController.m; sourceTree = "<group>"; };
+		B5014EF91C8D3B1500887024 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5014EFB1C8D400600887024 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B5014EFD1C8D437B00887024 /* XXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTableViewController.h; sourceTree = "<group>"; };
+		B5014EFE1C8D437B00887024 /* XXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTableViewController.m; sourceTree = "<group>"; };
+		B5014F001C8D442200887024 /* XXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTableViewCell.h; sourceTree = "<group>"; };
+		B5014F011C8D442200887024 /* XXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTableViewCell.m; sourceTree = "<group>"; };
+		B5014F031C8D471900887024 /* ButtonNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonNormal.h; sourceTree = "<group>"; };
+		B5014F041C8D471900887024 /* ButtonNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNormal.m; sourceTree = "<group>"; };
+		B5014F061C8D4B8300887024 /* tmall_icon_cat_outing_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmall_icon_cat_outing_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CBE9AB32CB0E4E473D1290 /* Pods_XXTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181A7AC5E489C9A7F73719FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AACD19BBB5498DF60C24E61E /* Pods-XXTable.debug.xcconfig */,
+				9A15F0F03F6E861766B5752C /* Pods-XXTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		799A44869DF81347EE81A811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA6884A222590C6545FA09B /* Pods_XXTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5014EAE1C8D2C7E00887024 = {
 			isa = PBXGroup;
 			children = (
+				B5014EF91C8D3B1500887024 /* Default-568h@2x.png */,
 				B5014EB91C8D2C7E00887024 /* XXTable */,
 				B5014ED31C8D2C7E00887024 /* XXTableTests */,
 				B5014EDE1C8D2C7E00887024 /* XXTableUITests */,
 				B5014EB81C8D2C7E00887024 /* Products */,
+				181A7AC5E489C9A7F73719FE /* Pods */,
+				799A44869DF81347EE81A811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +139,8 @@
 		B5014EB91C8D2C7E00887024 /* XXTable */ = {
 			isa = PBXGroup;
 			children = (
-				B5014EBD1C8D2C7E00887024 /* AppDelegate.h */,
-				B5014EBE1C8D2C7E00887024 /* AppDelegate.m */,
-				B5014EC01C8D2C7E00887024 /* ViewController.h */,
-				B5014EC11C8D2C7E00887024 /* ViewController.m */,
-				B5014EC31C8D2C7E00887024 /* Main.storyboard */,
+				B5014EED1C8D2DBE00887024 /* Classes */,
 				B5014EC61C8D2C7E00887024 /* Assets.xcassets */,
-				B5014EC81C8D2C7E00887024 /* LaunchScreen.storyboard */,
 				B5014ECB1C8D2C7E00887024 /* Info.plist */,
 				B5014EBA1C8D2C7E00887024 /* Supporting Files */,
 			);
@@ -118,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				B5014EBB1C8D2C7E00887024 /* main.m */,
+				B5014EFB1C8D400600887024 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +174,50 @@
 			path = XXTableUITests;
 			sourceTree = "<group>";
 		};
+		B5014EED1C8D2DBE00887024 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5014EEE1C8D2DBE00887024 /* Main */,
+				B5014EEF1C8D2DBE00887024 /* Other */,
+				B5014EFC1C8D434500887024 /* XXTableControll */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B5014EEE1C8D2DBE00887024 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B5014EF61C8D2ECA00887024 /* XXNavViewController.h */,
+				B5014EF71C8D2ECA00887024 /* XXNavViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B5014EEF1C8D2DBE00887024 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B5014EF01C8D2E5D00887024 /* AppDelegate.h */,
+				B5014EF11C8D2E5D00887024 /* AppDelegate.m */,
+				B5014EF21C8D2E5D00887024 /* ViewController.h */,
+				B5014EF31C8D2E5D00887024 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B5014EFC1C8D434500887024 /* XXTableControll */ = {
+			isa = PBXGroup;
+			children = (
+				B5014EFD1C8D437B00887024 /* XXTableViewController.h */,
+				B5014EFE1C8D437B00887024 /* XXTableViewController.m */,
+				B5014F001C8D442200887024 /* XXTableViewCell.h */,
+				B5014F011C8D442200887024 /* XXTableViewCell.m */,
+				B5014F061C8D4B8300887024 /* tmall_icon_cat_outing_1.png */,
+				B5014F031C8D471900887024 /* ButtonNormal.h */,
+				B5014F041C8D471900887024 /* ButtonNormal.m */,
+			);
+			path = XXTableControll;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5014EE41C8D2C7E00887024 /* Build configuration list for PBXNativeTarget "XXTable" */;
 			buildPhases = (
+				31B6C84D2A6492BC9EF21B89 /* Check Pods Manifest.lock */,
 				B5014EB31C8D2C7E00887024 /* Sources */,
 				B5014EB41C8D2C7E00887024 /* Frameworks */,
 				B5014EB51C8D2C7E00887024 /* Resources */,
+				4DD71E3A0EDF09870B175785 /* Embed Pods Frameworks */,
+				7539677D2058DD9D9D097C1D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5014ECA1C8D2C7E00887024 /* LaunchScreen.storyboard in Resources */,
 				B5014EC71C8D2C7E00887024 /* Assets.xcassets in Resources */,
-				B5014EC51C8D2C7E00887024 /* Main.storyboard in Resources */,
+				B5014F071C8D4B8300887024 /* tmall_icon_cat_outing_1.png in Resources */,
+				B5014EFA1C8D3B1500887024 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +349,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31B6C84D2A6492BC9EF21B89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD71E3A0EDF09870B175785 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXTable/Pods-XXTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7539677D2058DD9D9D097C1D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXTable/Pods-XXTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5014EB31C8D2C7E00887024 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5014EC21C8D2C7E00887024 /* ViewController.m in Sources */,
-				B5014EBF1C8D2C7E00887024 /* AppDelegate.m in Sources */,
+				B5014EF81C8D2ECA00887024 /* XXNavViewController.m in Sources */,
+				B5014EF51C8D2E5D00887024 /* ViewController.m in Sources */,
+				B5014EFF1C8D437B00887024 /* XXTableViewController.m in Sources */,
+				B5014F021C8D442200887024 /* XXTableViewCell.m in Sources */,
+				B5014EF41C8D2E5D00887024 /* AppDelegate.m in Sources */,
+				B5014F051C8D471900887024 /* ButtonNormal.m in Sources */,
 				B5014EBC1C8D2C7E00887024 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,25 +442,6 @@
 			targetProxy = B5014EDC1C8D2C7E00887024 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B5014EC31C8D2C7E00887024 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5014EC41C8D2C7E00887024 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B5014EC81C8D2C7E00887024 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5014EC91C8D2C7E00887024 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B5014EE21C8D2C7E00887024 /* Debug */ = {
@@ -412,9 +526,12 @@
 		};
 		B5014EE51C8D2C7E00887024 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACD19BBB5498DF60C24E61E /* Pods-XXTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XXTable/PrefixHeader.pch";
 				INFOPLIST_FILE = XXTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.adqer.com.XXTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,9 +540,12 @@
 		};
 		B5014EE61C8D2C7E00887024 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A15F0F03F6E861766B5752C /* Pods-XXTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XXTable/PrefixHeader.pch";
 				INFOPLIST_FILE = XXTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lxx.adqer.com.XXTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +619,7 @@
 				B5014EE61C8D2C7E00887024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5014EE71C8D2C7E00887024 /* Build configuration list for PBXNativeTarget "XXTableTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +628,7 @@
 				B5014EE91C8D2C7E00887024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5014EEA1C8D2C7E00887024 /* Build configuration list for PBXNativeTarget "XXTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +637,7 @@
 				B5014EEC1C8D2C7E00887024 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
